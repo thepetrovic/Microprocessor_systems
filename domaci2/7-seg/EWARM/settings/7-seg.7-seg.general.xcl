@@ -1,0 +1,13 @@
+"D:\Program Files\IAR system\arm\bin\armproc.dll" 
+
+"D:\Program Files\IAR system\arm\bin\armsim2.dll" 
+
+"D:\FAKS\4 godina\Mikroprocesori\STM32CubeMX zadaci\7-seg\EWARM\7-seg\Exe\7-seg.out" 
+
+--plugin="D:\Program Files\IAR system\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files\IAR system\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+
+
+
