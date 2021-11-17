@@ -1,0 +1,13 @@
+"D:\Program Files\IAR system\arm\bin\armproc.dll" 
+
+"D:\Program Files\IAR system\arm\bin\armsim2.dll" 
+
+"D:\FAKS\4 godina\Mikroprocesori\STM32CubeMX zadaci\blinkanje_diode_EWARM\EWARM\blinkanje_diode_EWARM\Exe\blinkanje_diode_EWARM.out" 
+
+--plugin="D:\Program Files\IAR system\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files\IAR system\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+
+
+
