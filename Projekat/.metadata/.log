@@ -1,0 +1,19 @@
+!SESSION 2022-09-01 20:28:21.201 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\Stefan\OneDrive\Radna površina\Microprocessor_systems-main\Microprocessor_systems-main\Projekat\Projekat_Troosno_merenje_ubrzanja\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Stefan\OneDrive\Radna površina\Microprocessor_systems-main\Microprocessor_systems-main\Projekat\Projekat_Troosno_merenje_ubrzanja\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-01 20:29:13.883
+!MESSAGE Log4j initialized with config file C:\Users\Stefan\OneDrive\Radna površina\Microprocessor_systems-main\Microprocessor_systems-main\Projekat\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-01 20:29:27.204
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2022-09-01 20:29:51.124
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-01 20:30:00.023
+!MESSAGE Indexed 'Projekat_Troosno_merenje_ubrzanja' (21 sources, 45 headers) in 24.3 sec: 5,095 declarations; 17,881 references; 29 unresolved inclusions; 274 syntax errors; 4,628 unresolved names (17%)

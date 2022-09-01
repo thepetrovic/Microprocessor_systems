@@ -202,7 +202,7 @@ int main(void)
 	  LCD_init();
 	  lcd_puts("POCINJE_RACUNANJE");
 
-	  HAL_Delay(100);
+	  HAL_Delay(300);
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, GPIO_PIN_RESET);
 
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_SET);
@@ -215,7 +215,7 @@ int main(void)
 	  lcd_puts("X:");
 
 	  ispis_broja(aX);
-	  HAL_Delay(100);
+	  HAL_Delay(300);
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_RESET);
 
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_SET);
@@ -227,7 +227,7 @@ int main(void)
 	  lcd_puts("Y:");
 
 	  ispis_broja(aY);
-	  HAL_Delay(100);
+	  HAL_Delay(300);
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_RESET);
 
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
@@ -239,19 +239,20 @@ int main(void)
 	  lcd_puts("Z:");
 
 	  ispis_broja(aZ);
-	  HAL_Delay(100);
+	  HAL_Delay(300);
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
 
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
 	  res=sqrt(aX*aX+aY*aY+aZ*aZ);
 	  LCD_init();
 	  lcd_puts("UBRZANJE JE:");
+	  HAL_Delay(300);
 
 	  LCD_init();
 	  ispis_broja(res);
 	  lcd_puts("m/s^2");
 
-	  HAL_Delay(100);
+	  HAL_Delay(300);
 	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
     /* USER CODE BEGIN 3 */
   }
